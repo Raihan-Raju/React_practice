@@ -11,6 +11,7 @@ const App = () => {
     <div>
       <Navebar/>
       <Header/>
+       
       <Body/>
       <Footer/>
 
