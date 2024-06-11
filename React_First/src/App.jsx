@@ -1,21 +1,17 @@
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
-import 
+import React from 'react';
 
-
+import Navebar from 'component/Navebar.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const App = () => {
   return (
-    function App() {
-      return (
-        <BrowserRouter basename="/app">
-          <Routes>
-            <Route path="/" /> {/* 👈 Renders at /app/ */}
-          </Routes>
-        </BrowserRouter>
-      );
-    }
+    <div className="App">
+      <Navebar />
+      
+      
+    </div>
   );
-};
+}
 
 export default App;
