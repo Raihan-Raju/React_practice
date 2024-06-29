@@ -6,6 +6,8 @@ import ProductDetail from './components/ProductDetail'
 import SearchItem from './components/SearchItem'
 import Cart from './components/Cart'
 import { items } from './components/Data'
+import Login from './admin/pages/Login'
+import AdminHeader from './admin/components/AdminHeader'
 
 
 const App = () => {
@@ -20,6 +22,8 @@ const App = () => {
       <Route path="/product/:id" element={<ProductDetail cart={cart} setCart={setCart} />} />
       <Route path="/search/:term" element={<SearchItem cart={cart} setCart={setCart} />} />
       <Route path="/cart" element={<Cart cart={cart} setCart={setCart} />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/header" element={<AdminHeader />} />
     </Routes>
   
     </Router>

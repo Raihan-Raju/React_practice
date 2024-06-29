@@ -33,7 +33,7 @@ const Navbar = ({setData,cart}) => {
     <>
     <header className='sticky-top'>
         <div className="nav-bar">
-            <Link to={'/'} className="brand">E-Cart</Link>
+            <Link to={'/'} className="brand">Asian-Mart</Link>
 
             <form
             // onClick={handleSubmit} 
@@ -48,6 +48,9 @@ const Navbar = ({setData,cart}) => {
             </form>
 
 
+            <button className='login'>
+              <Link to={'/login'}>Login</Link>
+            </button>
             <Link to={'/cart'} className="cart">
             <button type="button" className="btn btn-primary position-relative">
   <BsFillCartCheckFill style={{fontSize:'1.5rem'}} />
