@@ -89,8 +89,38 @@ const AdminHeader = () => {
           <div className="col-md-4">
             <div className="main-box mb-red">
               <a href="#">
-                <i className="fa fa-bolt fa-5x" />
-                <h5>Zero Issues</h5>
+              <i className="fa fa-dollar fa-5x" />  
+                <h5>Total Seles</h5><br />
+                <p>50,5798tk</p>
+              </a>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="main-box mb-dull">
+              <a href="#">
+                
+                <h5>TO DAY SALES</h5><br />
+                <h4>15'578Tk</h4>
+              </a>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="main-box mb-pink">
+              <a href="#">
+              <i className="fa fa-bolt fa-5x" />
+                <h5>Pending Order</h5> <br />
+                 <h3>10</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-md-4">
+            <div className="main-box mb-red">
+              <a href="#">
+                
+                <h5>Total Order</h5>
               </a>
             </div>
           </div>
@@ -111,6 +141,49 @@ const AdminHeader = () => {
             </div>
           </div>
         </div>
+
+
+        <div className="container-fluid pt-4 px-4">
+  <div className="row g-4">
+    <div className="col-sm-6 col-xl-3">
+      <div className="bg-light rounded d-flex align-items-center justify-content-between p-4">
+        <i className="fa fa-chart-line fa-3x text-primary" />
+        <div className="ms-3">
+          <p className="mb-2">Today Sale</p>
+          <h6 className="mb-0">$1234</h6>
+        </div>
+      </div>
+    </div>
+    <div className="col-sm-6 col-xl-3">
+      <div className="bg-light rounded d-flex align-items-center justify-content-between p-4">
+        <i className="fa fa-chart-bar fa-3x text-primary" />
+        <div className="ms-3">
+          <p className="mb-2">Total Sale</p>
+          <h6 className="mb-0">$1234</h6>
+        </div>
+      </div>
+    </div>
+    <div className="col-sm-6 col-xl-3">
+      <div className="bg-light rounded d-flex align-items-center justify-content-between p-4">
+        <i className="fa fa-chart-area fa-3x text-primary" />
+        <div className="ms-3">
+          <p className="mb-2">Today Revenue</p>
+          <h6 className="mb-0">$1234</h6>
+        </div>
+      </div>
+    </div>
+    <div className="col-sm-6 col-xl-3">
+      <div className="bg-light rounded d-flex align-items-center justify-content-between p-4">
+        <i className="fa fa-chart-pie fa-3x text-primary" />
+        <div className="ms-3">
+          <p className="mb-2">Total Revenue</p>
+          <h6 className="mb-0">$1234</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
         {/* /. ROW  */}
         <div className="row">
           <div className="col-md-8">
