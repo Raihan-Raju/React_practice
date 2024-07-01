@@ -11,10 +11,27 @@ const AdminHeader = () => {
      {/* NAV TOP   */}
     <nav className="navbar-default navbar-side" role="navigation">
       <div className="sidebar-collapse">
+
         <ul className="nav" id="main-menu">
+        
           <li>
-            <a className="active-menu" href="index.html"><i className="fa fa-dashboard " />Dashboard</a>
+            <a className="active-menu" href="index.html"><i className="fa fa-dashboard " />||||||----- Dashboard-----||||||</a>
           </li>
+            
+          <li>
+            <NavLink to='/addproduct'>
+              <i className="fa fa-yelp " />Add-Supplier <span className="fa arrow" />
+            </NavLink>
+          </li>
+
+              <ul className="nav nav-second-level">
+                
+                <li>
+                   <a href="invoice.html"><i className="fa fa-yelp" />Manage-Supplier</a>
+                </li>
+                
+      
+              </ul>
 
           <li>
             <NavLink to='/addproduct'>
@@ -22,52 +39,60 @@ const AdminHeader = () => {
             </NavLink>
           </li>
 
-          <li>
-
-            <a href="#"><i className="fa fa-yelp " />Extra Pages <span className="fa arrow" /></a>
-            <ul className="nav nav-second-level">
-              <li>
-                <a href="invoice.html"><i className="fa fa-coffee" />Invoice</a>
-              </li>
-              <li>
-                <a href="pricing.html"><i className="fa fa-flash " />Pricing</a>
-              </li>
-              
-              
-              
-            </ul>
-          </li>
-          
-          <li>
-            
-            <ul className="nav nav-second-level">
-             
-             
-            </ul>
-          </li>
-          
-          
-          
-          <li>
-            
-            <ul className="nav nav-second-level">
-              
-              
-              <li>
+              <ul className="nav nav-second-level">
                 
-                <ul className="nav nav-third-level">
-                  
-                  
-                </ul>
-              </li>
-            </ul>
-          </li>
+                <li>
+                   <a href="invoice.html"><i className="fa fa-coffee" />Manage product</a>
+                </li>
+                <li>
+                   <a href="pricing.html"><i className="fa fa-flash " />Total Displaying Product</a>
+                </li>
+      
+              </ul>
+          
           <li>
-            <a href="blank.html"><i className="fa fa-square-o " />Blank Page</a>
+            <NavLink to='/addproduct'>
+              <i className="fa fa-desktop " />Total-Order<span className="fa arrow" />
+            </NavLink>
           </li>
+
+              <ul className="nav nav-second-level">
+                
+                <li>
+                   <a href="invoice.html"><i className="fa fa-coffee" />Order-Manegment</a>
+                </li>
+                <li>
+                   <a href="pricing.html"><i className="fa fa-flash " />Delivery</a>
+                </li>
+      
+              </ul>
+
+
+              <li>
+            <NavLink to='/addproduct'>
+              <i className="fa fa-desktop " />Return<span className="fa arrow" />
+            </NavLink>
+          </li>
+
+              <ul className="nav nav-second-level">
+                
+                <li>
+                   <a href="invoice.html"><i className="fa fa-coffee" />Return-Manegment</a>
+                </li>
+               
+                <li>
+                <a href="notification.html"><i className="fa fa-bell " />Notifications</a>
+              </li>
+      
+              </ul>
+        
         </ul>
       </div>
     </nav>
+
+
+
+
        {/* NAV SIDE  */}
     <div id="page-wrapper">
       <div id="page-inner">
@@ -82,9 +107,9 @@ const AdminHeader = () => {
           <div className="col-md-4">
             <div className="main-box mb-red">
               <a href="#">
-              <i className="fa fa-dollar fa-5x" />  
+               
                 <h5>Total Seles</h5><br />
-                <p>50,5798tk</p>
+                <h4>50,5798tk</h4>
               </a>
             </div>
           </div>
@@ -100,9 +125,9 @@ const AdminHeader = () => {
           <div className="col-md-4">
             <div className="main-box mb-pink">
               <a href="#">
-              <i className="fa fa-bolt fa-5x" />
+              
                 <h5>Pending Order</h5> <br />
-                 <h3>10</h3>
+                 <h4>10</h4>
               </a>
             </div>
           </div>
@@ -113,69 +138,32 @@ const AdminHeader = () => {
             <div className="main-box mb-red">
               <a href="#">
                 
-                <h5>Total Order</h5>
+                <h5>Total Order</h5><br />
+                <h4>20.576</h4>
               </a>
             </div>
           </div>
           <div className="col-md-4">
             <div className="main-box mb-dull">
               <a href="#">
-                <i className="fa fa-plug fa-5x" />
-                <h5>40 Task In Check</h5>
+                
+                <h5>Return Product</h5><br />
+                <h4>58</h4>
               </a>
             </div>
           </div>
           <div className="col-md-4">
             <div className="main-box mb-pink">
               <a href="#">
-                <i className="fa fa-dollar fa-5x" />
-                <h5>200K Pending</h5>
+                <i className="fa fa-bell" />
+                <h5>2K </h5>
               </a>
             </div>
           </div>
         </div>
 
 
-        <div className="container-fluid pt-4 px-4">
-  <div className="row g-4">
-    <div className="col-sm-6 col-xl-3">
-      <div className="bg-light rounded d-flex align-items-center justify-content-between p-4">
-        <i className="fa fa-chart-line fa-3x text-primary" />
-        <div className="ms-3">
-          <p className="mb-2">Today Sale</p>
-          <h6 className="mb-0">$1234</h6>
-        </div>
-      </div>
-    </div>
-    <div className="col-sm-6 col-xl-3">
-      <div className="bg-light rounded d-flex align-items-center justify-content-between p-4">
-        <i className="fa fa-chart-bar fa-3x text-primary" />
-        <div className="ms-3">
-          <p className="mb-2">Total Sale</p>
-          <h6 className="mb-0">$1234</h6>
-        </div>
-      </div>
-    </div>
-    <div className="col-sm-6 col-xl-3">
-      <div className="bg-light rounded d-flex align-items-center justify-content-between p-4">
-        <i className="fa fa-chart-area fa-3x text-primary" />
-        <div className="ms-3">
-          <p className="mb-2">Today Revenue</p>
-          <h6 className="mb-0">$1234</h6>
-        </div>
-      </div>
-    </div>
-    <div className="col-sm-6 col-xl-3">
-      <div className="bg-light rounded d-flex align-items-center justify-content-between p-4">
-        <i className="fa fa-chart-pie fa-3x text-primary" />
-        <div className="ms-3">
-          <p className="mb-2">Total Revenue</p>
-          <h6 className="mb-0">$1234</h6>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+       
 
         {/* /. ROW  */}
         <div className="row">
