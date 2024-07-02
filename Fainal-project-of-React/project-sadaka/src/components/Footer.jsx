@@ -117,6 +117,13 @@ const Footer = () => {
         </a>
       </div>
     </div>
+    <>
+  {/* Hello world */}
+ 
+</>
+
+
+
   </footer>{" "}
   {/* main-footer */}
 </>

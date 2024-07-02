@@ -85,15 +85,15 @@ const Navbar = () => {
                     <span className="icon-bar" />
                     <span className="icon-bar" />
                   </button>
-                  <a className="navbar-brand" href="index.html">
+                  <NavLink className="navbar-brand" to ="/">
                     <img src="assets/images/sadaka-logo.png" alt="" />
-                  </a>
+                  </NavLink>
                 </div>
                 <div id="navbar" className="navbar-collapse collapse pull-right">
                   <ul className="nav navbar-nav">
                     <li>
                       
-                      <NavLink className="is-active" to ="/home">
+                      <NavLink className="is-active" to ="/">
                         HOME
                       </NavLink>
                     </li>
@@ -123,6 +123,16 @@ const Navbar = () => {
                     <li>
                       <NavLink to ="/contact">CONTACT</NavLink>
                     </li>
+                    <li>
+                      <NavLink to ="/sponsor">SPONSOR</NavLink>
+                    </li>
+                    <li className="red-text">
+                      <NavLink to ="/signin">LOGIN</NavLink>
+                    </li>
+                    
+                      
+                        
+                      
                   </ul>
                 </div>{" "}
                 {/* /#navbar */}

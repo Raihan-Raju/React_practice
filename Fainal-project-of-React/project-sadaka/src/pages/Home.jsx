@@ -1,8 +1,12 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+
 
 const Home = () => {
     return (
         <>
+         <Navbar/>
         {/* Hello world */}
         <div
           id="homeCarousel"
@@ -348,7 +352,7 @@ const Home = () => {
               <div className="col-md-3 col-sm-6">
                 <div className="cause">
                   <img
-                    src="assets/images/causes/cause-rights.jpg"
+                    src="/images/causes/cause-rights.jpg"
                     alt=""
                     className="cause-img"
                   />
@@ -596,6 +600,7 @@ const Home = () => {
           </div>
         </div>{" "}
         {/* /.modal */}
+        <Footer/>
       </>
       
     );

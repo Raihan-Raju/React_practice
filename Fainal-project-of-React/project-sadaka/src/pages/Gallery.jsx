@@ -1,8 +1,12 @@
 import React from 'react';
-
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 const Gallery = () => {
     return (
         <>
+        <Navbar/>
+       
+        
         <div className="main-container">
           <div className="container gallery fadeIn animated">
             <div className="row">
@@ -148,6 +152,7 @@ const Gallery = () => {
           </div>
         </div>{" "}
         {/* /.main-container  */}
+        <Footer/>
       </>
       
     );

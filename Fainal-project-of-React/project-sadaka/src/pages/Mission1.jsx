@@ -1,8 +1,12 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const Mission1 = () => {
     return (
         <>
+         <Navbar/>
+       
         <div className="page-heading text-center">
           <div className="container zoomIn animated">
             <h1 className="page-title">
@@ -354,6 +358,7 @@ const Mission1 = () => {
           {/* /.our-causes */}
         </div>{" "}
         {/* /.main-container  */}
+        <Footer/>
       </>
       
     );

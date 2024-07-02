@@ -1,8 +1,12 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const Contact = () => {
     return (
         <>
+         <Navbar/>
+        
   <div className="page-heading text-center">
     <div className="container zoomIn animated">
       <h1 className="page-title">
@@ -107,6 +111,7 @@ const Contact = () => {
     </div>
   </div>
   <div id="contact-map" className="contact-map"></div>
+  <Footer/>
 </>
 
     );
