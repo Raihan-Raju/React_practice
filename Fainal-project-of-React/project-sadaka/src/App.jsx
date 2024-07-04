@@ -10,6 +10,8 @@ import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Sponsors from './components/Sponsors';
 import Signin from './loginPanel/Signin';
+import Registration from './loginPanel/Registration';
+import Adminhome from './adminPages/Adminhome';
 
 
 
@@ -28,6 +30,8 @@ const App = () => {
                   <Route path = "/contact" element = { <Contact />} />
                   <Route path = "/sponsor" element = { <Sponsors />} />
                   <Route path = "/signin" element = { <Signin />} />
+                  <Route path = "/registration" element = { <Registration />} />
+                  <Route path = "/adminhome" element = { <Adminhome />} />
           </Routes>
        {/* <Footer/> */}
 

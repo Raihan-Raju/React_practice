@@ -1,78 +1,65 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Signin = () => {
     return (
     <> 
-<div className="login-box">
-    <div className="login-logo">
-      <a href="../../index2.html">
-        <b>Admin</b>LTE
-      </a>
-    </div>
-    {/* /.login-logo */}
-    <div className="card">
-      <div className="card-body login-card-body">
-        <p className="login-box-msg">Sign in to start your session</p>
-        <form action="../../index3.html" method="post">
-          <div className="input-group mb-3">
-            <input type="email" className="form-control" placeholder="Email" />
-            <div className="input-group-append">
-              <div className="input-group-text">
-                <span className="fas fa-envelope" />
-              </div>
-            </div>
-          </div>
-          <div className="input-group mb-3">
-            <input
-              type="password"
-              className="form-control"
-              placeholder="Password"
-            />
-            <div className="input-group-append">
-              <div className="input-group-text">
-                <span className="fas fa-lock" />
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-8">
-              <div className="icheck-primary">
-                <input type="checkbox" id="remember" />
-                <label htmlFor="remember">Remember Me</label>
-              </div>
-            </div>
-            {/* /.col */}
-            <div className="col-4">
-              <button type="submit" className="btn btn-primary btn-block">
-                Sign In
-              </button>
-            </div>
-            {/* /.col */}
-          </div>
-        </form>
-        <div className="social-auth-links text-center mb-3">
-          <p>- OR -</p>
-          <a href="#" className="btn btn-block btn-primary">
-            <i className="fab fa-facebook mr-2" /> Sign in using Facebook
-          </a>
-          <a href="#" className="btn btn-block btn-danger">
-            <i className="fab fa-google-plus mr-2" /> Sign in using Google+
-          </a>
-        </div>
-        {/* /.social-auth-links */}
-        <p className="mb-1">
-          <a href="forgot-password.html">I forgot my password</a>
-        </p>
-        <p className="mb-0">
-          <a href="register.html" className="text-center">
-            Register a new membership
-          </a>
-        </p>
+      <>
+  {/* Hello world */}
+  <div className="container">
+    <div className="row text-center " style={{ paddingTop: 100 }}>
+      <div className="col-md-12">
+        <img src="loginAssets/img/logo-invoice.png" />
       </div>
-      {/* /.login-card-body */}
+    </div>
+    <div className="row ">
+      <div className="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+        <div className="panel-body">
+          <form role="form">
+            <hr />
+            <h5>Enter Details to Login</h5>
+            <br />
+            <div className="form-group input-group">
+              <span className="input-group-addon">
+                <i className="fa fa-tag" />
+              </span>
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Your Username "
+              />
+            </div>
+            <div className="form-group input-group">
+              <span className="input-group-addon">
+                <i className="fa fa-lock" />
+              </span>
+              <input
+                type="password"
+                className="form-control"
+                placeholder="Your Password"
+              />
+            </div>
+            <div className="form-group">
+              <label className="checkbox-inline">
+                <input type="checkbox" /> Remember me
+              </label>
+              <span className="pull-right">
+                <a href="index.html">Forget password ? </a>
+              </span>
+            </div>
+            <NavLink to ="/adminhome" className="btn btn-primary ">
+              Login Now
+            </NavLink>
+            <hr />
+            Not register ? <NavLink to="/registration">Registration here </NavLink> <br /> or go to{" "}
+            <NavLink to="/">Home</NavLink>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
-  {/* /.login-box */}
+</>
+
   </>
 
     );
