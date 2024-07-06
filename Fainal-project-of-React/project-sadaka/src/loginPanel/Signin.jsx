@@ -9,7 +9,7 @@ const Signin = () => {
   <div className="container">
     <div className="row text-center " style={{ paddingTop: 100 }}>
       <div className="col-md-12">
-        <img src="loginAssets/img/logo-invoice.png" />
+        <img src="adminAssets/assets/img/logo-invoice.png" />
       </div>
     </div>
     <div className="row ">

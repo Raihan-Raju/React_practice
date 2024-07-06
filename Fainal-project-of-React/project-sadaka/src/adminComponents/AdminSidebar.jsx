@@ -3,7 +3,7 @@ import React from 'react';
 const AdminSidebar = () => {
     return (
         <div>
-            this is sidebar of admin
+            <h2>this is sidebar of admin</h2>
         </div>
     );
 };

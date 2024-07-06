@@ -12,6 +12,8 @@ import Sponsors from './components/Sponsors';
 import Signin from './loginPanel/Signin';
 import Registration from './loginPanel/Registration';
 import Adminhome from './adminPages/Adminhome';
+import AdminNavbar from './adminComponents/AdminNavbar';
+import AdminSidebar from './adminComponents/AdminSidebar';
 
 
 
@@ -31,6 +33,8 @@ const App = () => {
                   <Route path = "/sponsor" element = { <Sponsors />} />
                   <Route path = "/signin" element = { <Signin />} />
                   <Route path = "/registration" element = { <Registration />} />
+                  <Route path = "/adminNavbar" element = { <AdminNavbar />} />
+                  <Route path = "/adminSidebar" element = { <AdminSidebar />} />
                   <Route path = "/adminhome" element = { <Adminhome />} />
           </Routes>
        {/* <Footer/> */}
