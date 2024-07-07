@@ -190,6 +190,9 @@ const Home = () => {
           </div>
         </div>{" "}
         {/* /.about-us */}
+        <div><h2 className="title-style-1">
+                OUR ACHIEVEMENT <span className="title-under" />
+              </h2></div>
        
     {/* Wrapper for slides */}
     <div className="carousel-inner" role="listbox">
