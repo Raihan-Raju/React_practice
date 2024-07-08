@@ -1,0 +1,10 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search{
+height: 40px;
+width: 300px;
+border-radius: 10px;
+}
