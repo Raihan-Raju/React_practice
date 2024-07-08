@@ -1,14 +1,21 @@
 import React from 'react';
+<<<<<<< HEAD
 import { NavLink } from 'react-router-dom';
 // import AdminNavbar from '../adminComponents/AdminNavbar';
 // import AdminSidebar from '../adminComponents/AdminSidebar';
+=======
+// import { NavLink } from 'react-router-dom';
+import AdminNavbar from '../adminComponents/AdminNavbar';
+import AdminSidebar from '../adminComponents/AdminSidebar';
+>>>>>>> 79a19757445a56689730a96ef6459e7bff4ee8cf
 
 const Adminhome = () => {
     return (
         <div>
-          {/* <AdminNavbar/>
-          <AdminSidebar/> */}
+          <AdminNavbar/>
+          <AdminSidebar/>
               <>
+<<<<<<< HEAD
   <div id="wrapper">
     <nav
       className="navbar navbar-default navbar-cls-top"
@@ -131,6 +138,10 @@ const Adminhome = () => {
    
     {/* /. PAGE WRAPPER  */}
   </div>
+=======
+  
+  <div><h1 >Hello</h1></div>
+>>>>>>> 79a19757445a56689730a96ef6459e7bff4ee8cf
   {/* /. WRAPPER  */}
   <div id="footer-sec">
     © 2014 YourCompany | Design By :{" "}
