@@ -14,7 +14,11 @@ import Registration from './loginPanel/Registration';
 import Adminhome from './adminPages/Adminhome';
 import AdminNavbar from './adminComponents/AdminNavbar';
 import AdminSidebar from './adminComponents/AdminSidebar';
-import MainPage from './adminPages/MainPage';
+import AdminFooter from './adminComponents/AdminFooter';
+import AdminDeshbord from './adminPages/AdminDeshbord';
+import Table from './adminComponents/Table';
+import AdminSlider from './adminComponents/AdminSlider';
+// import { Map } from './components/Map';
 
 
 
@@ -37,7 +41,11 @@ const App = () => {
                   <Route path = "/adminNavbar" element = { <AdminNavbar />} />
                   <Route path = "/adminSidebar" element = { <AdminSidebar />} />
                   <Route path = "/adminhome" element = { <Adminhome />} />
-                  <Route path = "/main" element = { <MainPage />} />
+                  <Route path = "/adminFooter" element = { <AdminFooter />} />
+                  <Route path = "/AdminDeshbord" element = { <AdminDeshbord />} />
+                  <Route path = "/table" element = { <Table />} />
+                  <Route path = "/adminSlider" element = { <AdminSlider />} />
+                  {/* <Route path = "/map" element = { <Map/>} /> */}
           </Routes>
        {/* <Footer/> */}
 

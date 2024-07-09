@@ -2,23 +2,25 @@ import React from 'react';
 
 const AdminSidebar = () => {
     return (
-        <div id="wrapper">
-    
-   
-    <nav className="navbar-default navbar-side" role="navigation">
-      <div className="sidebar-collapse">
+        <div id="wrapper" className=''>
+  
+    {/* /. NAV TOP  */}
+    <nav className="navbar-default navbar-side " role="navigation">
+      <div className="sidebar-collapse ">
         <ul className="nav" id="main-menu">
-          
           <li>
-            <a className="active-menu" href="index.html">
-              <i className="fa fa-dashboard " />
-              Dashboard
-            </a>
-          </li>
-          <li>
+            {/* <div className="user-img-div">
+              <img src="adminAssets/assets/img/user.png" className="img-thumbnail" />
+              <div className="inner-text">
+                Jhon Deo Alex
+                <br />
+                <small>Last Login : 2 Weeks Ago </small>
+              </div>
+            </div> */}
+        
             <a href="#">
               <i className="fa fa-desktop " />
-              UI Elements <span className="fa arrow" />
+              <h3>Deshbord</h3> <span className="fa arrow" />
             </a>
             <ul className="nav nav-second-level">
               <li>
@@ -42,6 +44,7 @@ const AdminSidebar = () => {
             </ul>
           </li>
 
+
           <li>
             <a href="#">
               <i className="fa fa-yelp " />
@@ -54,6 +57,8 @@ const AdminSidebar = () => {
                   Invoice
                 </a>
               </li>
+              
+             
               <li>
                 <a href="social.html">
                   <i className="fa fa-send " />
@@ -68,24 +73,26 @@ const AdminSidebar = () => {
               </li>
             </ul>
           </li>
-         
-          
-          
-         
-          
-          
           <li>
-            <a href="blank.html">
-              <i className="fa fa-square-o " />
-              Blank Page
+            <a href="table.html">
+              <i className="fa fa-flash " />
+              Data Tables{" "}
             </a>
+          </li>
+          <li>
+            <a href="#">
+              <i className="fa fa-bicycle " />
+              Forms <span className="fa arrow" />
+            </a>
+            <ul className="nav nav-second-level">   
+            </ul>
           </li>
         </ul>
       </div>
     </nav>
     {/* /. NAV SIDE  */}
    
-    {/* /. PAGE WRAPPER  */}
+    
   </div>
     );
 };

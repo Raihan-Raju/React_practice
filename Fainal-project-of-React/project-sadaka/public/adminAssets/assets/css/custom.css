@@ -14,7 +14,7 @@
     =============================================*/
 .main-box {
     text-align:center;
-    padding:20px;
+    padding:50px;
     border-radius:5px;
     -moz-border-radius:5px ;
     -webkit-border-radius:5px;
@@ -29,10 +29,10 @@
     background-color:#8F8F2C;
 }
 .mb-red {
-    background-color:#d36f2e;
+    background-color:#19b833;
 }
 .mb-pink {
-    background-color:#FF2F71;
+    background-color:#ecf87d;
 }
     .main-box h5 {
         font-size:16px;

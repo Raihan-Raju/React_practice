@@ -6,9 +6,9 @@ const Signin = () => {
     <> 
       <>
   {/* Hello world */}
-  <div className="container ">
+  <div className="container">
     <div className="row text-center " style={{ paddingTop: 100 }}>
-      <div className="col-md-12 ">
+      <div className="col-md-12">
         <img src="adminAssets/assets/img/logo-invoice.png" />
       </div>
     </div>
@@ -47,7 +47,7 @@ const Signin = () => {
                 <a href="index.html">Forget password ? </a>
               </span>
             </div>
-            <NavLink to ="/main" className="btn btn-primary ">
+            <NavLink to ="/adminhome" className="btn btn-primary ">
               Login Now
             </NavLink>
             <hr />
