@@ -124,7 +124,7 @@ const Navbar = () => {
                       <NavLink to ="/contact">CONTACT</NavLink>
                     </li>
                     <li>
-                      <NavLink to ="/pzSponsor">SPONSOR</NavLink>
+                      <NavLink to ="/sponsor">SPONSOR</NavLink>
                     </li>
                     <li className="red-text">
                       <NavLink to ="/signin">LOGIN</NavLink>
