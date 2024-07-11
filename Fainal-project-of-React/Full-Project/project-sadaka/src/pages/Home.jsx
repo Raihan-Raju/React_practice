@@ -1,12 +1,15 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-// import { Map } from '../components/Map';
+import { Map } from '../components/Map';
+import { Sponser } from '../components/Sponsor';
+
 
 
 const Home = () => {
     return (
         <>
+
          <Navbar/>
         {/* Hello world */}
         <div
@@ -715,7 +718,8 @@ const Home = () => {
           </div>
         </div>{" "}
         {/* /.modal */}
-        
+        <Sponser/>
+        <Map/>
         <Footer/>
       </>
       

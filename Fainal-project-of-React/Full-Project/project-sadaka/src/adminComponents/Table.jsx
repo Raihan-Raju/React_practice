@@ -9,7 +9,7 @@ const Table = () => {
               <table className="table table-striped table-bordered table-hover">
                 <thead>
                   <tr>
-                    <th>#</th>
+                    <th>#No</th>
                     <th>First Name</th>
                     <th>Last Name</th>
                     <th>Username</th>

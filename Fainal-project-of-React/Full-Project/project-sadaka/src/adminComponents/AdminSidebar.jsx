@@ -2,13 +2,16 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const AdminSidebar = () => {
+  const customHeight={
+    minHeight: '100vh',
+  }
     return (
         <div id="wrapper" className=''>
   
     {/* /. NAV TOP  */}
-    <nav className="navbar-default navbar-side " role="navigation">
-      <div className="sidebar-collapse ">
-        <ul className="nav" id="main-menu">
+    <nav style={customHeight} className="navbar-default navbar-side " role="navigation">
+      <div style={customHeight} className="sidebar-collapse ">
+        <ul style={customHeight} className="nav" id="main-menu">
           <li>
             {/* <div className="user-img-div">
               <img src="adminAssets/assets/img/user.png" className="img-thumbnail" />

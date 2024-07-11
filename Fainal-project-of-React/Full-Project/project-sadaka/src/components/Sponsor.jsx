@@ -11,13 +11,16 @@ import img9 from "/assets/images/sponsors/united-nations.png";
 import img10 from "/assets/images/sponsors/wikimedia.png";
 
 export const Sponser = () => {
+  const flexx={
+    display:"flex",
+  }
   return (
     <div>
       <div className="section-home our-sponsors">
-        <div className="container">
-          <h2 className="title-style-1">
+      <h2 className="title-style-1">
             Our Sponsors <span className="title-under" />
           </h2>
+        <div className="container" style={flexx}>
           <img src={img1} alt="" />
           <img src={img2} alt="" />
           <img src={img3} alt="" />

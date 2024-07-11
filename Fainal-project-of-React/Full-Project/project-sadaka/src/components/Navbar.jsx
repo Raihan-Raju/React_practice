@@ -71,7 +71,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-main">
               <div className="container">
-                <div className="navbar-header">
+                <div className="">
                   <button
                     type="button"
                     className="navbar-toggle collapsed"

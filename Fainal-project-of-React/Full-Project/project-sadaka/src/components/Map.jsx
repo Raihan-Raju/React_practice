@@ -13,7 +13,7 @@ export const Map = () => {
         <MapContainer
           className="h"
           center={[23.718176, 90.386607]}
-          zoom={14}
+          zoom={16}
           scrollWheelZoom={false}
         >
           <TileLayer
