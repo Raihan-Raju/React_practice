@@ -4,6 +4,9 @@ import { NavLink } from 'react-router-dom';
 const registration = () => {
     return (
       <div className="row">
+        <div className="col-md-12 row text-center ">
+          <h1>꧁༺ 𝓢𝓪𝓭𝓪𝓴𝓪 ༻꧂</h1>
+        </div>
         <div className="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
             <div className="panel panel-info">
                   <div className="panel-heading">SINGUP FORM</div>
@@ -24,9 +27,9 @@ const registration = () => {
                         <input className="form-control" type="password" />
                         <p className="help-block">Help text here.</p>
                       </div>
-                      <button type="submit" className="btn btn-success">
+                    <NavLink to="/signin">  <button type="submit" className="btn btn-success">
                         Register Now{" "}
-                      </button>
+                      </button></NavLink>
                        
 
                       <div className="form-group">

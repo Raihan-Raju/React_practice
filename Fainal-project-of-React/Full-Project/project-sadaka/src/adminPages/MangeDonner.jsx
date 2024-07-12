@@ -8,20 +8,7 @@ import { NavLink } from 'react-router-dom';
 import React, { useEffect, useState } from 'react'
 
 const MangeDonner = () => {
-    const [items, setItems] = useState([]);
-
-    const itemDelete = (id) => {
-        axios.post("http://localhost/practice-react/main/api-php/product/deleteItem.php?id=" + id)
-            .then((res) => (console.log(res)))
-
-        axios.get("http://localhost/React_practice/Fainal-project-of-React/Full-Project/php/donner/donnerlists.php")
-            .then((res) => setItems(res.data))
-    }
-
-    useEffect(() => {
-        axios.get("http://localhost/React_practice/Fainal-project-of-React/Full-Project/php/donner/donnerlists.php")
-            .then((res) => setItems(res.data))
-    }, [])
+   
     return (
         <>
             <AdminNavbar />

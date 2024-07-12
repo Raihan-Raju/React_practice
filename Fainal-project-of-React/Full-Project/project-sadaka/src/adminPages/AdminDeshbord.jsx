@@ -1,5 +1,5 @@
 import React from 'react';
-import Table from '../adminComponents/Table';
+// import Table from '../adminComponents/Table';
 import AdminSlider from '../adminComponents/AdminSlider';
 import AdminFooter from '../adminComponents/AdminFooter';
 import BarChart from '../adminComponents/Charts/BarChart';
@@ -85,7 +85,7 @@ const AdminDeshbord = () => {
         </div>
         {/* /. ROW  */}
         <AdminSlider/>
-          <Table/>
+          {/* <Table/> */}
       </div>
       <AdminFooter/>
     </div>

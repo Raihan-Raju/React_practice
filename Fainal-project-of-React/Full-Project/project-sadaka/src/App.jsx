@@ -1,11 +1,12 @@
 
-import React from 'react';
+
 import {BrowserRouter as Router, Routes,Route} from 'react-router-dom'
 // import Navbar from './components/Navbar';
 // import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Mission1 from './pages/Mission1';
+import Mission2 from './pages/Mission2';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import PzSponsors from './pages/PzSponsors';
@@ -20,6 +21,9 @@ import Table from './adminComponents/Table';
 import AdminSlider from './adminComponents/AdminSlider';
 import AddDonner from './adminPages/AddDonner';
 import MangeDonner from './adminPages/MangeDonner';
+import AddDonnetion from './adminPages/AddDonnetion';
+import AddVolunteer from './adminPages/AddVolunteer';
+import Impect from './components/Impect';
 
 
 // import { Map } from './components/Map';
@@ -36,7 +40,9 @@ const App = () => {
           <Routes>    
                   <Route path = "/" element = { <Home />} />
                   <Route path = "/about" element = { <About />} />
+                  <Route path = "/impect" element = { <Impect />} />
                   <Route path = "/mission1" element = { <Mission1 />} />
+                  <Route path = "/mission2" element = { <Mission2 />} />
                   <Route path = "/gallery" element = { <Gallery />} />
                   <Route path = "/contact" element = { <Contact />} />
                   <Route path = "/pzSponsor" element = { <PzSponsors />} />
@@ -51,6 +57,10 @@ const App = () => {
                   <Route path = "/adminSlider" element = { <AdminSlider />} />
                   <Route path = "/addDonner" element = { <AddDonner />} />
                   <Route path = "/mangeDonner" element = { <MangeDonner />} />
+                  <Route path = "/addDonnetion" element = { <AddDonnetion />} />
+                  <Route path = "/addVolunteer" element = { <AddVolunteer />} />
+                  
+
                   
 
 

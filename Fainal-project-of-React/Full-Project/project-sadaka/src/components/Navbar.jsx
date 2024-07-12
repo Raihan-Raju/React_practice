@@ -107,13 +107,13 @@ const Navbar = () => {
                           <NavLink to ="/mission1">Mission-1 </NavLink>
                         </li>
                         <li className="submenu-item">
-                          <a href="causes-single.html">Mission-2 </a>
+                          <NavLink to="/mission2">Mission-2 </NavLink>
                         </li>
                         <li className="submenu-item">
-                          <a href="causes-single.html">Mission-3 </a>
+                          <NavLink to="/mission1">Mission-3 </NavLink>
                         </li>
                         <li className="submenu-item">
-                          <a href="causes-single.html">Mission-4 </a>
+                          <NavLink to="/mission2">Mission-4 </NavLink>
                         </li>
                       </ul>
                     </li>

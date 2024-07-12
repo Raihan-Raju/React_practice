@@ -6,10 +6,13 @@ const Signin = () => {
     <> 
       <>
   {/* Hello world */}
-  <div className="container">
-    <div className="row text-center " style={{ paddingTop: 100 }}>
+  <div className="container bg-black">
+  {/* <div className="container bg-black" style={{backgroundColor:'black'}}> */}
+    <div className="row text-center " style={{ paddingTop: 100}}>
       <div className="col-md-12">
-        <img src="adminAssets/assets/img/logo-invoice.png" />
+       
+        <h1>꧁༺ 𝓢𝓪𝓭𝓪𝓴𝓪 ༻꧂</h1>
+       
       </div>
     </div>
     <div className="row ">

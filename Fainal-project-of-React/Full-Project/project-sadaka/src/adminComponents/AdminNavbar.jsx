@@ -10,8 +10,9 @@ function AdminNavbar() {
         <input className="search" type="text" placeholder="Donner searching....."/>
         <button className="baton">Search</button>
       </div>
-
-      <h1>man image</h1>
+      
+       <NavLink to="/signin"><button className="logbaton ">Logout</button></NavLink>
+      
     </div>
     
   );

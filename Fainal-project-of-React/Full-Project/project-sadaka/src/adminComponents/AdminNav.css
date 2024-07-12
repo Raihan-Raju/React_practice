@@ -14,3 +14,9 @@ border-radius: 10px;
     width: 100px;
     border-radius: 10px;
 }
+.logbaton{
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+}

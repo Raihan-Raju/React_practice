@@ -24,7 +24,7 @@ const About = () => {
         className="row text-center"
         data-scroll-reveal="enter from the bottom after .3s"
       >
-        <div className="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+        <div className="col-lg-12 col-md-8 col-sm-6   ">
           <h2>OUR IMPACT</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit onec
@@ -35,7 +35,7 @@ const About = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-sm-5 ">
+        <div className="col-sm-6 ">
           <div data-scroll-reveal="enter from the left after .5s">
             <h4>Provided Education </h4>
             <div className="progress">
@@ -98,7 +98,7 @@ const About = () => {
           </div>
         </div>
         <div
-          className="col-sm-7 knob-sec"
+          className="col-sm-6 knob-sec"
           data-scroll-reveal="enter from the right after .8s"
         >
           <h4>HELP TO RAISE FUND</h4>
